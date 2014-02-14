@@ -1,12 +1,12 @@
-fake-user-agent
+emulate-user-agent
 ==========
 
 ```
-npm install fake-user-agent
+npm install emulate-user-agent
 ```
 
 ```
-var agents = require('fake-user-agent');
+var agents = require('emulate-user-agent');
 
 var headers =  {
   "User-Agent": agents.IPHONE_IOS5
